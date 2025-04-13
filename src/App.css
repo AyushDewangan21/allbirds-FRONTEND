@@ -200,6 +200,8 @@ html {
   height: 81.5vh;
   width: 31vw;
   background-color: beige;
+    transition: background-size 0.3s;
+  background-size: 100%;
 }
 
 #div017 {
@@ -211,6 +213,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-size: 100%;
 }
 #div018 {
   background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_2000/cms/7kcrYAMvgP0jeDCxEZhM7T/b872659dc6eae46319b1f61eb3ab844b/25Q1_HB_A11475_W_OnBody_KneeDown_01789.jpg");
@@ -220,6 +223,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-size: 100%;
 }
 #div019 {
   background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_2000/cms/3WHJVnrc1pApRyYFmR5N6x/ab088617ac656ed6a38afc93184c3a36/25Q1_BTN_A11473_M_OffBody_Medium_Pedestal2_00247.jpg");
@@ -229,6 +233,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-size: 100%;
 }
 
 #div020 {
@@ -257,8 +262,7 @@ html {
 #div017:hover,
 #div018:hover,
 #div019:hover {
-  background-size: 105%; /* Zoom the image by 10% */
-  /* filter: brightness(90%); */
+  background-size: 105%;
   background-color: rgba(0, 0, 0, 0.5);
   #div020 {
     display: flex;
@@ -331,6 +335,12 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
+  transition: background-size 0.3s ease;
+  background-size: 100%;
+}
+#div029:hover {
+  /* background-size: 105%; */
+  background-size: 105%;
 }
 
 #div030 {
@@ -375,10 +385,7 @@ html {
   justify-content: left;
   gap: 1vw;
 }
-#div029:hover {
-  background-size: 105%;
-  filter: brightness(90%);
-}
+
 
 #div038 {
   height: 6vh;
@@ -438,6 +445,8 @@ html {
   align-items: center;
   justify-content: space-around;
   gap: 20px;
+  background-size: 100%;
+  transition: background-size 0.3s ease, background-color 0.3s ease;
 }
 
 #div031:hover,
@@ -445,6 +454,7 @@ html {
 #div033:hover,
 #div034:hover {
   background-size: 110%;
+  background-color: rgba(0, 0, 0, 0.416);
   filter: brightness(95%);
   #div040 {
     opacity: 100;
@@ -527,6 +537,8 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100%;
+  transition: background-size 0.3s;
 }
 #div048 {
   height: 100vh;
@@ -537,6 +549,8 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100%;
+  transition: background-size 0.3s;
 }
 
 #div047,
@@ -652,6 +666,8 @@ html {
 #cardimg006 {
   background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100%;
+  transition: background-size 0.3s;
 }
 #cardimg001 {
   background-image: url("https://cdn.allbirds.com/image/upload/f_auto,q_auto,w_600/cms/75ZlA1KuTgkhFRojxUvBpq/49b4a7057fbead493857cd0c74fcbcc7/A11483_25Q2_Tree_Runner_Go_Utility_Blizzard_Deep_Navy_Natural_White_PDP_LEFT-2000x2000.png");
@@ -678,7 +694,7 @@ html {
 #cardimg004:hover,
 #cardimg005:hover,
 #cardimg006:hover {
-  background-size: 105%;
+   background-size: 103%;
 }
 #div053 {
   font-weight: 500;
